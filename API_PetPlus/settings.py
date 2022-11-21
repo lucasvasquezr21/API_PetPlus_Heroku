@@ -59,8 +59,7 @@ INSTALLED_APPS = [
     'app_tipo_empleado',
     'app_estado',
     'app_color',
-    'app_especie',
-    'index'
+    'app_especie'
 ]
 
 MIDDLEWARE = [
