@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-o6^b!3w8k0i6x280@kvig)lz$*%jjzp@2mbhahx@(ygxi5j-j#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['api-petplus-duocuc.herokuapp.com']
 
 
 # Application definition
