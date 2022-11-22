@@ -102,7 +102,7 @@ WSGI_APPLICATION = 'API_PetPlus.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'petplus_bd',
+        'NAME': 'new_petplus_bd',
         'USER': 'admin',
         'PASSWORD': 'Petplus22*',
         'HOST': 'petplus.c3mj6sxphyu0.us-east-1.rds.amazonaws.com',
@@ -116,7 +116,7 @@ DATABASES = {
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'petplus_bd',
+#         'NAME': 'new_petplus_bd',
 #         'USER': 'root',
 #         'PASSWORD': '1234',
 #         'HOST': 'localhost',
