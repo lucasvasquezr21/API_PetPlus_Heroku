@@ -60,6 +60,7 @@ INSTALLED_APPS = [
     'app_estado',
     'app_color',
     'app_especie',
+    'app_usuario',
     'index'
 ]
 

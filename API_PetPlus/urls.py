@@ -36,4 +36,5 @@ urlpatterns = [
     path('app_sexo/',include('app_sexo.urls')),
     path('app_tipo_empleado/',include('app_tipo_empleado.urls')),
     path('app_estado/',include('app_estado.urls')),
+    path('app_usuario/',include('app_usuario.urls')),
 ]
