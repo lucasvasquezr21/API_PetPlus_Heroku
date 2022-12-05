@@ -21,7 +21,7 @@ class UsuarioView(View):
                 datos={'message':"usuarios no encontrados..."}
             return JsonResponse(datos)
         else:
-            usuario=list(Usuario.objects.values())
+            usuarios=list(Usuario.objects.values())
             if len(usuarios)>0:
                 datos={'message':"Success",'usuarios':usuarios}
             else:
