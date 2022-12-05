@@ -39,12 +39,13 @@ class AnimalView(View):
         Animal.objects.create(
             nombre=jd['nombre'],
             n_microchip=jd['n_microchip'],
-            tipo_sangre=jd['tipo_sangre'],
             dueno_id_dueno_id=jd['dueno_id_dueno_id'],
             color_id_color_id=jd['color_id_color_id'],
             especie_id_especie_id=jd['especie_id_especie_id'],
             estado_id_estado_id=jd['estado_id_estado_id'],
             sexo_id_sexo_id=jd['sexo_id_sexo_id'],
+            tipo_sangre=jd['tipo_sangre'],
+            fecha_nac=jd['fecha_nac'],
             )
         datos={'message':"Success"}
         return JsonResponse(datos)
@@ -62,6 +63,7 @@ class AnimalView(View):
             animal.estado_id_estado=jd['estado_id_estado']
             animal.sexo_id_sexo=jd['sexo_id_sexo']
             animal.tipo_sangre=jd['tipo_sangre']
+            animal.fecha_nac=jd['fecha_nac']
             animal.save()
             datos = {'mesage':"Success"}
         else:

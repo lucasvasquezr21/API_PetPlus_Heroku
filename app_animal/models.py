@@ -12,6 +12,7 @@ class Animal(models.Model):
     estado_id_estado = models.ForeignKey('app_estado.Estado', models.DO_NOTHING, db_column ='estado_id_estado')
     sexo_id_sexo = models.ForeignKey('app_sexo.Sexo', models.DO_NOTHING, db_column = 'sexo_id_sexo')
     tipo_sangre = models.CharField(max_length=45, blank=True, null=True)
+    fecha_nac = models.CharField(max_length=8, blank=True, null=True)
 
     class Meta:
         managed = False
